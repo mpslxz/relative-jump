@@ -1,11 +1,13 @@
 ;; relative-jump.el --- Jumps to line with the relative address. Fits well when used along with a relative numbering package like linum-relative
 
-;; Author: mpslxz
-;; Keywords: 
-;; X-URL: http://github.com/coldnew/linum-relative
+;; Author: mpslxz <mpslxz@yahoo.com>
+;; Keywords: convenience
+;; Package-Requires: ((emacs "24.1"))
 ;; Version: 0.1
 
 ;; This file is not part of GNU Emacs.
+
+;;; Commentary:
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -20,25 +22,9 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program; if not, write to the Free Software
 ;; Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-
-;;; Commentary:
-;; [![MELPA](http://melpa.org/packages/linum-relative-badge.svg)](http://melpa.org/#/linum-relative)
-;; [![MELPA Stable](http://stable.melpa.org/packages/linum-relative-badge.svg)](http://stable.melpa.org/#/linum-relative)
-
-;; ![Screenshot](https://github.com/coldnew/linum-relative/raw/master/screenshot/screenshot1.jpg)
 ;;
 ;; linum-relative lets you display relative line numbers for current buffer.
 ;;
-
-;;; Installation:
-
-;; If you have `melpa` and `emacs24` installed, simply type:
-;;
-;;     M-x package-install linum-relative
-;;
-;; And add the following to your .emacs
-;;
-;;     (require 'linum-relative)
 
 ;;; Code:
 
