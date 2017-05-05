@@ -1,8 +1,10 @@
-;; relative-jump.el --- Jumps to line with the relative address. Fits well when used along with a relative numbering package like linum-relative
+;; relative-jump.el --- Jumps to line with the relative address
+
+;; Copyright (C) mpslxz
 
 ;; Author: mpslxz <mpslxz@yahoo.com>
+;; Homepage: github.com/mpslxz/relative-jump
 ;; Keywords: convenience
-;; Package-Requires: ((emacs "24.1"))
 ;; Version: 0.1
 
 ;; This file is not part of GNU Emacs.
@@ -38,4 +40,4 @@
 (global-set-key (kbd "C-M-g C-M-g") 'relative-jump)
 (provide 'relative-jump)
 
-;;; relative-jump ends here
+;;; relative-jump.el ends here
