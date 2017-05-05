@@ -24,7 +24,6 @@
 ;; Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 ;;
 ;; linum-relative lets you display relative line numbers for current buffer.
-;;
 
 ;;; Code:
 
